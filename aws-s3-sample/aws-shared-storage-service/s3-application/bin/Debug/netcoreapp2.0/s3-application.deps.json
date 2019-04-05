@@ -1,0 +1,70 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "910eb148a5833dfa3a77c48aa842ad390e2485c0"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "s3-application/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.100.4",
+          "AWSSDK.Rekognition": "3.3.100.4",
+          "AWSSDK.S3": "3.3.25.1"
+        },
+        "runtime": {
+          "s3-application.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.3.100.4": {
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.Rekognition/3.3.100.4": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.100.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Rekognition.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.3.25.1": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.100.4"
+        },
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.S3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "s3-application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.3.100.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-to1DapqXL08Mzp+14tONn05uBnYTAdsgbQvf68HYEyXdmACLyQhN+yy1YPmOpnsYEntHTwE0VAkpB/6lFUPESg==",
+      "path": "awssdk.core/3.3.100.4",
+      "hashPath": "awssdk.core.3.3.100.4.nupkg.sha512"
+    },
+    "AWSSDK.Rekognition/3.3.100.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mPQdVtcUsXrpirBYYZkYNwx8DSuIhh6lL6TBAWh4s1BjFefx3pumWa9wKoois48SYFqCuaqJViPTKfOkEVz2lA==",
+      "path": "awssdk.rekognition/3.3.100.4",
+      "hashPath": "awssdk.rekognition.3.3.100.4.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.3.25.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TRnIQctJDdhRKtFhzYaA2q/zRf7lf6ZqFRq8gOOyigIvoxb+a35OkWHQFD6YOwxhYgjvm1xBcvF0ZG+//sa74A==",
+      "path": "awssdk.s3/3.3.25.1",
+      "hashPath": "awssdk.s3.3.3.25.1.nupkg.sha512"
+    }
+  }
+}
